@@ -1,0 +1,28 @@
+.home {
+  min-height: 100vh;
+  padding: 20px 60px;
+  background-color: pink;
+}
+.home img {
+  cursor: pointer;
+}
+.products-contain {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 23px;
+  width: 100%;
+}
+.card {
+  width: 400px;
+  padding: 20px;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  height: 300px;
+}
+.card > img {
+  width: 300px;
+  height: 200px;
+}

@@ -1,0 +1,8 @@
+.about {
+  padding: 20px 70px;
+  background-color: orange;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}

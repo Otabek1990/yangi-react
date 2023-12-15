@@ -1,0 +1,14 @@
+.detail-page {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  background-color: rgb(198, 198, 198);
+}
+.detail-page > img{
+   width: 85%;
+
+   height: 300px;
+}
