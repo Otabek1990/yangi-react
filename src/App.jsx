@@ -13,25 +13,16 @@ import Edit from "./pages/Edit/Edit";
 // home,about
 function App() {
 
-  const [user, setUser] = useState({})
-  const [users, setUsers] = useState([])
-  const [tasks, setTasks] = useState([])
-  console.log(tasks)
+
+
 
   return (
     <>
-      <Navbar user={user} />
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Home setUsers={setUsers} users={users} />} />
+        <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="tasks" element={<Tasks setTasks={setTasks} tasks={tasks} />} />
-        <Route path="edit/:id" element={<Edit />} />
-        <Route path="login" element={<Login
-          setUsers={setUsers}
-          users={users}
-          setUser={setUser} />} />
-        <Route path="detail/:id" element={<Detail />} />
-        <Route path="*" element={<NotFound />} />
+
       </Routes>
 
 

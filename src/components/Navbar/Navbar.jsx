@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { NavLink, useNavigate } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
-function Navbar({user}) {
+function Navbar() {
 
   const navigate = useNavigate()
   const getLoginPage = () => {
@@ -43,7 +43,6 @@ function Navbar({user}) {
 
         </li>
       </ul>
-      <h2>{user.email}</h2>
 
     </nav>
   )
