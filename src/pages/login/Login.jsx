@@ -26,7 +26,7 @@ function Login({ setUser, setUsers, users }) {
   }
   return (
     <div className='login-container'>
-      <h1>Login sahifaga hush kelibsiz</h1>
+      <h1>Login</h1>
       <form onSubmit={handleLogin} className="login-form">
         <input onChange={e => setIsm(e.target.value)} required type="text" placeholder="ism kiriting" />
         <input onChange={e => setEmail(e.target.value)} required type="email" placeholder="email kiriting" />
