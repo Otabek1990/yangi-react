@@ -11,6 +11,7 @@ import NotFound from "./pages/404Page/NotFound";
 import Tasks from "./pages/tasks/Tasks";
 import Edit from "./pages/Edit/Edit";
 import Register from "./pages/register/Register";
+import Basket from "./pages/basket/Basket";
 // home,about
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="basket" element={<Basket />} />
 
         <Route path="register" element={<Register />} />
         

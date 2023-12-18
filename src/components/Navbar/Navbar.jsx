@@ -34,6 +34,11 @@ function Navbar() {
           </NavLink>
         </li>
         <li>
+          <NavLink to={"/basket"}>
+            Basket
+          </NavLink>
+        </li>
+        <li>
           <NavLink to={"/register"}>
             Register
           </NavLink>
