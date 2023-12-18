@@ -37,6 +37,7 @@ function Home() {
   return (
     <div className="home">
       <Banner/>
+      <h1>Malumotlar backend chaqirildi</h1>
    
 
     </div>
