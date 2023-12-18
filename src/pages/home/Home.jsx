@@ -2,6 +2,7 @@
 import { useEffect } from "react"
 import "./Home.css"
 import { useState } from "react"
+import Banner from "../../components/Banner/Banner"
 // useEffect hook
 
 
@@ -28,15 +29,15 @@ function Home() {
   // }, [])
 
   // localStorage
+  // local branch===>global branch
+  // global branch;
+// master 
+  // banner create task==>
 
   return (
     <div className="home">
-      <h1>home sahifa</h1>
-      <h2>{son}</h2>
-      <button onClick={() => setSon(+son + 1)}>son qoshis</button>
-
-      <h2>{money}</h2>
-      <button onClick={() => setMoney(money + 5)}>pul qoshish</button>
+      <Banner/>
+   
 
     </div>
   )
