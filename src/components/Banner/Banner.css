@@ -1,0 +1,7 @@
+.banner {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/nature-quotes-landscape-1648265299.jpg");
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
